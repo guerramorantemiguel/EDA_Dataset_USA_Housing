@@ -21,4 +21,12 @@ columnas.count()
 filas = Filas(viviendas)
 filas.count()
 
+max = Max(viviendas, "Precios")
+max.calculo()
 
+min = Min(viviendas, "Precios")
+min.calculo()
+
+suma_precios_viviendas = sum(precios)
+media_precios_viviendas = suma_precios_viviendas/10001
+print("La media de precios es {}".format(media__mates))
