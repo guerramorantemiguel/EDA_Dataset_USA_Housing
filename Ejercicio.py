@@ -34,3 +34,9 @@ print("La media de precios es {}".format(media_precios_viviendas))
 mediana = int(1/2)
 mediana_precios = (precios[mediana] + precios[mediana + 1])/2
 print("La mediana de todos los precios es:{}".format(mediana_precios))
+
+moda_precios = count.(precios)
+print("La moda de todos los precios es:{}".format(moda_precios))
+
+def Rango(precios):
+print("El rango de los precios es:{}".format(max - min))
