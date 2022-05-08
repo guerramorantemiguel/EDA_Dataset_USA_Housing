@@ -29,4 +29,8 @@ min.calculo()
 
 suma_precios_viviendas = sum(precios)
 media_precios_viviendas = suma_precios_viviendas/10001
-print("La media de precios es {}".format(media__mates))
+print("La media de precios es {}".format(media_precios_viviendas))
+
+mediana = int(1/2)
+mediana_precios = (precios[mediana] + precios[mediana + 1])/2
+print("La mediana de todos los precios es:{}".format(mediana_precios))
