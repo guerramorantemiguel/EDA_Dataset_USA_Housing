@@ -14,3 +14,11 @@ viviendas = viviendas.dropna(subset = ["Precio"])
 
 print("Este es el nuevo dataset: ")
 print(viviendas)
+
+columnas = Columnas(viviendas)
+columnas.count()
+
+filas = Filas(viviendas)
+filas.count()
+
+
